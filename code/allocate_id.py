@@ -23,7 +23,7 @@ class Allocator:
         elif len(self.queue) > 0:
             result = self.queue.pop()
         if result is not None:
-            self.allocate(result)
+            self.allocated.add(result)
             return result
         else:
             raise CannotAllocateException("No ids available")
