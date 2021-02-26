@@ -13,11 +13,15 @@ Backup link: https://web.archive.org/web/20210224003004/https://1o24bbs.com/t/to
 **Behavioral Questions**:
 
 Talk about an impactful project that you led.
+* Teams that you collaborated with.
+* Convincing others to take action.
 * A tough decision that you had to make during that project.
 
 A critical piece of feedback that you received from someone and what you did after that.
 
 An important piece of feedback that you gave to someone else.
+
+A conflict that you had with someone else.
 
 How do you contribute to diversity and inclusion?
 
