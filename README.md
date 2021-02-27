@@ -92,3 +92,15 @@ Occasionally asked in phone screens. Might be asked in onsites for new hires.
 Somewhat frequently asked in onsite interviews. Might be asked in phone screens. 
 
 [Solution](https://github.com/insideofdrop/Dropbox-Interview-Prep/blob/main/code/FindByteInFile.java)
+
+12. **Count and Say** - [LeetCode](https://leetcode.com/problems/count-and-say/). Follow up - what if it's a stream of characters?
+
+Asked to college interns.
+
+[Solution](https://github.com/insideofdrop/Dropbox-Interview-Prep/blob/main/code/CoundAndSay.java)
+
+13. **Number of Islands / Number of Connected Components** - Find the number of connected components in a grid. [Leetcode](https://leetcode.com/problems/number-of-islands/)
+
+Mainly asked to college interns.
+
+[Solution](https://github.com/insideofdrop/Dropbox-Interview-Prep/blob/main/code/number_of_islands.py)
