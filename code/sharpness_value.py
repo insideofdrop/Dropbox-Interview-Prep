@@ -33,7 +33,7 @@ def sharpness_value(matrix):
             if row < R - 1: #You can look ahead to the next row
                 prev_sharpness = max(prev_sharpness, sharpness_column[row + 1])
             sharpness_column[row] = max(prev_sharpness, matrix[row][col])
-    return max(sharpness_column)
+    return min(sharpness_column)
 
 """
 If the matrix is very large:
