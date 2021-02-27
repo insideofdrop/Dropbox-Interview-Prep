@@ -74,3 +74,9 @@ This question is somewhat popular for roles with a large frontend component.
 Create an API to read and write files and maintain access to the least-recently written file. Then scale it up to a pool of servers.
 
 [Solution](https://github.com/insideofdrop/Dropbox-Interview-Prep/blob/main/code/space_panorama.py)
+
+9. **Phone Number / Dictionary** - Given a phone number, consider all the words that could be made on a T9 keypad. Return all of those words that can be found in a dictionary of specific words.
+
+This question is sometimes asked to college students and sometimes asked in phone screens. It isn't asked a lot in onsites. 
+
+[Solution](https://github.com/insideofdrop/Dropbox-Interview-Prep/blob/main/code/PhoneNumber.java)
