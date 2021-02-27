@@ -86,3 +86,9 @@ This question is sometimes asked to college students and sometimes asked in phon
 Occasionally asked in phone screens. Might be asked in onsites for new hires.
 
 [Solution](https://github.com/insideofdrop/Dropbox-Interview-Prep/blob/main/code/sharpness_value.py)
+
+11. **Find Byte Pattern in a File** - Determine whether a pattern of bytes occurs in a file. You need to understand the Rabin-Karp style rolling hash to do well.
+
+Somewhat frequently asked in onsite interviews. Might be asked in phone screens. 
+
+[Solution](https://github.com/insideofdrop/Dropbox-Interview-Prep/blob/main/code/FindByteInFile.java)
