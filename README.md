@@ -80,3 +80,9 @@ Create an API to read and write files and maintain access to the least-recently 
 This question is sometimes asked to college students and sometimes asked in phone screens. It isn't asked a lot in onsites. 
 
 [Solution](https://github.com/insideofdrop/Dropbox-Interview-Prep/blob/main/code/PhoneNumber.java)
+
+10. **Sharpness Value** - This question is usually phrased like "find the minimum value along all maximal paths". It's a dynamic programming question.
+
+Occasionally asked in phone screens. Might be asked in onsites for new hires.
+
+[Solution](https://github.com/insideofdrop/Dropbox-Interview-Prep/blob/main/code/sharpness_value.py)
