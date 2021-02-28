@@ -104,3 +104,15 @@ Asked to college interns.
 Mainly asked to college interns.
 
 [Solution](https://github.com/insideofdrop/Dropbox-Interview-Prep/blob/main/code/number_of_islands.py)
+
+14. **Combination Sum / Bottles of Soda / Coin Change** - Find all distinct combinations of soda bottles that add up to a target amount of soda. [LeetCode](https://leetcode.com/problems/combination-sum/)
+
+Mainly asked to IC1 candidates.
+
+[Solution](https://github.com/insideofdrop/Dropbox-Interview-Prep/blob/main/code/combination_sum.py)
+
+15. **Find Duplicate Files** - Given the root of a folder tree, find all the duplicate files and return a list of the collections of duplicate files. [LeetCode](https://leetcode.com/problems/find-duplicate-file-in-system/)
+
+Somewhat popular in phone screens. Less common in onsites.
+
+[Solution](https://github.com/insideofdrop/Dropbox-Interview-Prep/blob/main/code/duplicate_files.py)
