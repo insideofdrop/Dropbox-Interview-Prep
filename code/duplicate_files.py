@@ -84,7 +84,7 @@ class DuplicateFiles:
                     else:
                         hash_groups[file_hash] = [file]
                 for list_of_files in hash_groups.values():
-                    if len(list_of_files) > 0:
+                    if len(list_of_files) > 1:
                         result.append(list_of_files)
         return result
 
