@@ -25,7 +25,13 @@ A conflict that you had with someone else.
 
 How do you contribute to diversity and inclusion?
 
+**We do not ask for references and we do not check for references.**
+
 ---
+
+**Coding and System Design Tips**
+
+As always, you must talk your way through the problem and explain your reasoning. You should **ALWAYS** talk about performance (system performance for system design and time/space complexity for the coding problems) and talk about testing, even if the interviewer does not prompt you to. 
 
 **Coding Question List**: 
 
