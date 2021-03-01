@@ -38,6 +38,8 @@ class DuplicateFiles:
             mb_chunk = file_obj.read(mb)
             if mb_chunk is not None:
                 output_hash.update(mb_chunk)
+            else:
+                break
         return output_hash.hexdigest()
     
     def add_file(self, file):
