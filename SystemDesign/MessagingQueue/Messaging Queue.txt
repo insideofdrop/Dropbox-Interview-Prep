@@ -1,0 +1,40 @@
+Design a messaging queue for processing images. A producer will use the queue to send image data to a consumer for processing.
+
+Start with one producer and one consumer.
+
+**See the diagram in the PDF**. We expect the candidate to have something like that.
+
+
+Write the application methods for each service that you used. Expect the candidate to discuss when failure happens. 
+
+Producer:
+save_to_storage_service(byte[] image_data) throws FailedToPostImageException {}
+send_message(string message_with_image_information_from_storage_service) throws CannotPostToQueueException {}
+
+Messaging Queue:
+
+
+Consumer:
+
+
+
+
+
+
+
+Follow up questions:
+
+What if you have defective data in the queue that can't be processed by the consumers?
+- 
+What if we have duplicate images being processed by the consumers?
+- That isn't an issue. Unless it's mass duplication, it won't really matter if we have a few duplicates. 
+Can you think of a scenario where it would be a problem for the consumers to process duplicate information?
+- Finance / a bank.
+How would you solve that problem?
+- Have an orchestrator (like ZooKeeper) check the consumers for which jobs they are processing. If two or more are processing the same job, then you need to kill the job on all of but one of the consumers.
+
+
+Testing:
+Unit test everything in each service. 
+Do regression testing, end-to-end tests, and performance testing. 
+Test for each type of error that the whole system can throw. 
