@@ -25,6 +25,8 @@ A conflict that you had with someone else.
 
 How do you contribute to diversity and inclusion?
 
+---
+
 **We do not ask for references and we do not check for references.**
 
 ---
