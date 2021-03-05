@@ -4,8 +4,9 @@ Start with one producer and one consumer.
 
 **See the diagram in the PDF**. We expect the candidate to have something like that.
 
-
 Write the application methods for each service that you used. Expect the candidate to discuss when failure happens. 
+
+If the candidate talks about persisting each message to the disk when sent to the queue service, then redirect them to assume it's already saved.
 
 Producer:
 save_to_storage_service(byte[] image_data) throws FailedToPostImageException {}
@@ -15,17 +16,13 @@ Messaging Queue:
 
 
 Consumer:
-
-
-
-
-
-
+request_message(_queueServices) throws EmptyQueueException
 
 Follow up questions:
 
 What if you have defective data in the queue that can't be processed by the consumers?
-- 
+- When the queue gives a message to the consumer, it should store that message in a cache (save to disk)
+- Have a retry policy and a queue manager that tracks the retries on the data. If the data can't be processed correctly, then the producer tells the 
 What if we have duplicate images being processed by the consumers?
 - That isn't an issue. Unless it's mass duplication, it won't really matter if we have a few duplicates. 
 Can you think of a scenario where it would be a problem for the consumers to process duplicate information?
