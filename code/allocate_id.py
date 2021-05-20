@@ -124,3 +124,30 @@ class BinaryHeapAllocator:
             self.bool_array[parent_index] = both_children_are_true
             index = parent_index
         self.bool_array[0] = self.bool_array[1] and self.bool_array[2]
+     
+ """
+ Efficient Unordered Id allocator
+ For the first pass we give id's in order after that we just take random element from the set and assign it.
+ Time: O(1)
+ Space: O(n) -> If we allocate all and unallocate all the size of the set will be O(n)
+ """
+class EfficientAllocator:
+    def __init__(self, capacity):
+        self.max = capacity
+        self.unallocated = set()
+        self.i = 0
+
+    def allocate(self):
+        if self.i < self.max-1:
+            self.i += 1
+            return self.i
+        if len(self.unallocated) > 0:
+            first, *_ = self.unallocated
+            self.unallocated.remove(first)
+            return first
+        raise Exception("No ids available")
+
+    def release(self, id_):
+        if self.i >= self.max or id_ in self.unallocated:
+            raise Exception(f"The id {id_} cannot be released.")
+        self.unallocated.add(id_)
