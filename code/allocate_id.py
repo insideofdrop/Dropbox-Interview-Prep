@@ -93,7 +93,7 @@ class BinaryHeapAllocator:
                 index = right_child_index
             else: #Both subtrees are allocated, this actually means you broke your tree
                 raise CannotAllocateException("No ids available")
-        id = self.get_index_from_id(index)
+        id = self.get_id_from_index(index)
         self.update_tree(id)
         
 
